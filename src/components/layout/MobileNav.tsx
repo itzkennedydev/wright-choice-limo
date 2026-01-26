@@ -100,7 +100,7 @@ export default function MobileNav({ isOpen, onClose, links }: MobileNavProps) {
                 <Link
                   href="/reservation"
                   onClick={onClose}
-                  className="block w-full bg-neutral-900 hover:bg-neutral-800 text-white text-center px-6 py-3 rounded-lg font-semibold transition-all mt-4"
+                  className="block w-full bg-[#0a0e1a] hover:bg-[#0d121f] text-white text-center px-6 py-3 rounded-lg font-semibold transition-all mt-4"
                 >
                   Book Now
                 </Link>

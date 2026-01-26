@@ -26,9 +26,9 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal text-white leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal text-gray-300 leading-tight mb-6">
               Serving Chicago
-              <span className="block font-serif text-gray-300">The Wright Way.</span>
+              <span className="block font-semibold text-white">The Wright Way.</span>
             </h1>
             <p className="text-lg text-gray-300 mb-8 max-w-xl">
               Professional chauffeurs serving Chicago for over 14 years. Airport pickups, corporate travel, and special occasions.

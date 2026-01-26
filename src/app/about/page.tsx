@@ -168,7 +168,10 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.15 }}
-                className="group bg-white rounded-2xl p-8 hover:bg-neutral-900 transition-colors duration-500"
+                className="group bg-white rounded-2xl p-8 transition-colors duration-500"
+                style={{ '--hover-bg': '#0a0e1a' } as React.CSSProperties}
+                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#0a0e1a'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'white'}
               >
                 <span className="text-6xl font-light text-gray-200 group-hover:text-gray-700 transition-colors duration-500 block mb-6">
                   {value.number}
@@ -186,7 +189,7 @@ export default function AboutPage() {
       </section>
 
       {/* Why Choose Us - Elegant List */}
-      <section className="py-24 bg-neutral-900">
+      <section className="py-24" style={{ backgroundColor: '#0a0e1a' }}>
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -245,7 +248,7 @@ export default function AboutPage() {
           >
             <h2 className="text-4xl md:text-6xl font-normal text-neutral-900 mb-6 leading-tight">
               Ready to experience
-              <span className="block font-serif text-gray-400">the Wright Choice?</span>
+              <span className="block text-gray-400">the Wright Choice?</span>
             </h2>
             <p className="text-xl text-gray-600 mb-12">
               Book your luxury transportation today and discover why thousands
@@ -254,13 +257,13 @@ export default function AboutPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/reservation"
-                className="inline-flex items-center gap-2 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-4 rounded-lg font-semibold transition-all"
+                className="inline-flex items-center gap-2 bg-[#0a0e1a] hover:bg-[#0d121f] text-white px-8 py-4 rounded-lg font-semibold transition-all"
               >
                 Book Your Ride
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-4 rounded-lg font-semibold transition-all"
+                className="inline-flex items-center gap-2 bg-[#0a0e1a] hover:bg-[#0d121f] text-white px-8 py-4 rounded-lg font-semibold transition-all"
               >
                 Get in Touch
               </Link>

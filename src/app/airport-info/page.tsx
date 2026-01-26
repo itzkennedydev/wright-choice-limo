@@ -60,7 +60,8 @@ export default function AirportInfoPage() {
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-neutral-900 text-white rounded-2xl p-8"
+              className="text-white rounded-2xl p-8"
+              style={{ backgroundColor: '#0a0e1a' }}
             >
               <h2 className="text-2xl font-normal mb-2">Ready for Pickup?</h2>
               <p className="text-gray-400 mb-6">

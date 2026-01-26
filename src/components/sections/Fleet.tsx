@@ -111,7 +111,7 @@ export default function Fleet() {
         >
           <Link
             href="/reservation"
-            className="inline-flex items-center gap-2 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-4 rounded-lg font-semibold transition-all"
+            className="inline-flex items-center gap-2 bg-[#0a0e1a] hover:bg-[#0d121f] text-white px-8 py-4 rounded-lg font-semibold transition-all"
           >
             Book Your Ride
             <ArrowRight className="w-5 h-5" />

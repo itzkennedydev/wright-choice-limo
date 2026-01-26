@@ -59,8 +59,10 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-neutral-600 ${
-                  showDarkHeader ? 'text-gray-800' : 'text-white'
+                className={`text-sm font-medium transition-colors ${
+                  showDarkHeader 
+                    ? 'text-gray-800 hover:text-neutral-600' 
+                    : 'text-white hover:text-gray-200'
                 }`}
               >
                 {link.label}
@@ -71,8 +73,11 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:+16304323937"
-              className="flex items-center gap-2 text-sm font-medium transition-colors"
-              style={{ color: showDarkHeader ? '#1a1a1a' : '#fff' }}
+              className={`flex items-center gap-2 text-sm font-medium transition-colors ${
+                showDarkHeader 
+                  ? 'text-gray-800 hover:text-neutral-600' 
+                  : 'text-white hover:text-gray-200'
+              }`}
             >
               <Phone className="w-4 h-4" />
               (630) 432-3937
@@ -81,7 +86,7 @@ export default function Header() {
               href="/reservation"
               className={`px-6 py-2.5 rounded-lg font-semibold text-sm transition-all ${
                 showDarkHeader
-                  ? 'bg-neutral-900 hover:bg-neutral-800 text-white'
+                  ? 'bg-[#0a0e1a] hover:bg-[#0d121f] text-white'
                   : 'bg-white hover:bg-gray-100 text-neutral-900'
               }`}
             >

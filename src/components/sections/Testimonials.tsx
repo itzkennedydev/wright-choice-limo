@@ -51,7 +51,7 @@ export default function Testimonials() {
                 </svg>
               </div>
 
-              <blockquote className="text-xl md:text-2xl text-neutral-800 leading-relaxed mb-8 font-serif max-w-4xl">
+              <blockquote className="text-xl md:text-2xl text-neutral-800 leading-relaxed mb-8 max-w-4xl">
                 {testimonials[currentIndex].quote}
               </blockquote>
 

@@ -219,7 +219,7 @@ export default function ContactPage() {
                   </div>
                   <button
                     type="submit"
-                    className="w-full inline-flex items-center justify-center gap-2 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-4 rounded-xl font-semibold transition-all"
+                    className="w-full inline-flex items-center justify-center gap-2 bg-[#0a0e1a] hover:bg-[#0d121f] text-white px-8 py-4 rounded-xl font-semibold transition-all"
                   >
                     <Send className="w-5 h-5" />
                     Send Message
@@ -279,11 +279,11 @@ export default function ContactPage() {
           >
             <h2 className="text-4xl md:text-5xl font-normal text-neutral-900 mb-6 leading-tight">
               Ready to book
-              <span className="block font-serif text-gray-400">your ride?</span>
+              <span className="block text-gray-400">your ride?</span>
             </h2>
             <Link
               href="/reservation"
-              className="inline-flex items-center gap-2 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-4 rounded-lg font-semibold transition-all"
+              className="inline-flex items-center gap-2 bg-[#0a0e1a] hover:bg-[#0d121f] text-white px-8 py-4 rounded-lg font-semibold transition-all"
             >
               Book Now
               <ArrowRight className="w-5 h-5" />

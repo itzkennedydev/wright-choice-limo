@@ -90,7 +90,7 @@ export default function Services() {
           </p>
           <Link
             href="/reservation"
-            className="inline-flex items-center gap-2 mt-8 bg-neutral-900 hover:bg-neutral-800 text-white px-8 py-3 rounded-lg font-semibold transition-all"
+            className="inline-flex items-center gap-2 mt-8 bg-[#0a0e1a] hover:bg-[#0d121f] text-white px-8 py-3 rounded-lg font-semibold transition-all"
           >
             Explore more
           </Link>
